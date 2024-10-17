@@ -33,6 +33,37 @@ public class Ejercicio1 {
  }
 ```
 
+## Paso 5
+Realizar commit de los cambios:
+
+```code
+bae2@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git commit -m "Creo un Branch e incluyo el Ejercicio1.java"
+[ejercicio1-branch fea53b7] Creo un Branch e incluyo el Ejercicio1.java
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+```
+
+## Paso 6 
+Subo los cambios al repositorio. **Utilizando:** git push origin ejercicio2-branch
+
+```code
+bae2@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git push origin ejercicio1-branch
+Username for 'https://github.com': GabrielHerreraGanzo
+Password for 'https://GabrielHerreraGanzo@github.com': 
+Enumerando objetos: 8, listo.
+Contando objetos: 100% (8/8), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (4/4), listo.
+Escribiendo objetos: 100% (6/6), 1023 bytes | 511.00 KiB/s, listo.
+Total 6 (delta 1), reusados 0 (delta 0), pack-reusados 0
+remote: Resolving deltas: 100% (1/1), done.
+remote: 
+remote: Create a pull request for 'ejercicio1-branch' on GitHub by visiting:
+remote:      https://github.com/GabrielHerreraGanzo/ejercicio-git-branch/pull/new/ejercicio1-branch
+remote: 
+To https://github.com/GabrielHerreraGanzo/ejercicio-git-branch.git
+ * [new branch]      ejercicio1-branch -> ejercicio1-branch
+```
+
 
 
 
