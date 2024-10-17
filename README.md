@@ -22,7 +22,16 @@ bae2@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git branch ejercic
 bae2@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git checkout  ejercicio1-branch
 Cambiado a rama 'ejercicio1-branch'
 ```
+## Paso 4
+Añado esta clase al repositorio:
 
+```java
+public class Ejercicio1 {
+     public static void main(String[] args) {
+         System.out.println("Ejercicio 1 realizado.");
+     }
+ }
+```
 
 
 
