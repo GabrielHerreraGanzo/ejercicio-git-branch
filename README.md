@@ -43,7 +43,7 @@ bae2@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git commit -m "Cre
 ```
 
 ## Paso 6 
-Subo los cambios al repositorio. **Utilizando:** git push origin ejercicio2-branch
+Subo los cambios al repositorio. **Utilizando:** git push origin ejercicio1-branch
 
 ```code
 bae2@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git push origin ejercicio1-branch
@@ -63,6 +63,11 @@ remote:
 To https://github.com/GabrielHerreraGanzo/ejercicio-git-branch.git
  * [new branch]      ejercicio1-branch -> ejercicio1-branch
 ```
+
+## Paso 7
+Fusionar la nueva branch (ejercicio1-branch) con la main.
+
+
 
 
 
