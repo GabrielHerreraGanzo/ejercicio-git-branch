@@ -67,7 +67,18 @@ To https://github.com/GabrielHerreraGanzo/ejercicio-git-branch.git
 ## Paso 7
 Fusionar la nueva branch (ejercicio1-branch) con la main.
 
+Cambio al main y luego fuisono la rama.
 
+```code
+bae2@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git checkout main
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
+bae2@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git merge ejercicio1-branch
+Actualizando 3ebbb08..b26e012
+Fast-forward
+ README.md | 60 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 59 insertions(+), 1 deletion(-)
+```
 
 
 
