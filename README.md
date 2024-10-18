@@ -79,8 +79,23 @@ Fast-forward
  README.md | 60 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
  1 file changed, 59 insertions(+), 1 deletion(-)
 ```
+Subo los cambios con git push
 
+```code
+bae2@jpexposito-VirtualBox:~/Documentos/ejercicio-git-branch$ git push origin main
+Username for 'https://github.com': GabrielHerreraGanzo
+Password for 'https://GabrielHerreraGanzo@github.com': 
+Enumerando objetos: 5, listo.
+Contando objetos: 100% (5/5), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (2/2), listo.
+Escribiendo objetos: 100% (3/3), 503 bytes | 503.00 KiB/s, listo.
+Total 3 (delta 1), reusados 0 (delta 0), pack-reusados 0
 
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/GabrielHerreraGanzo/ejercicio-git-branch.git
+   3ebbb08..229b1b0  main -> main
+```
 
 
 
